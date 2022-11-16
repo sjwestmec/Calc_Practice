@@ -1,10 +1,100 @@
-.button-container{
+.container{
     display: grid;
-    grid: repeat(3, 60px) / auto-flow 80px;
+    grid-template-columns: repeat(4, 50%)  ;
+    grid-template-rows: repeat(4, 50%);
+    gap: 10px;
+    font-size: 100px;
+    width: 125px;
+    border-radius: 10px;
     grid-template-areas: 
-    ""
-    ""
-    ""
-    
+    "b9 b8 b7 add"
+    "b6 b5 b4 sub"
+    "b3 b2 b1 div"
+    "b0 empty clear multi"
     ;
 }
+
+.b0 {
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+.b1 {
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+.b2 {
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+.b3 {
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+.b4 {
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+.b5 {
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+.b6 {
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+.b7 {
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+.b8 {
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+.b9 {
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+.add {
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+.sub {
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+.div {
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+.multi {
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+.empty {
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+.clear {
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+.text-container{
+    
+}
+
